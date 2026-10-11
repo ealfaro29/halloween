@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#20172c" />
+    <meta name="description" content="Inscríbete para la presentación de Halloween: comparte tu nombre, personaje y la música que necesitas." />
+    <title>Presentación de Halloween · Inscripción</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./config.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="night-sky" aria-hidden="true">
+      <svg class="bat bat-one" viewBox="0 0 72 36" fill="currentColor"><path d="M36 16 31 9l-1 9C19 13 12 4 1 1c3 11 9 16 15 18 0 0-1 5 0 8 5-3 11-2 15 3l5 5 5-5c4-5 10-6 15-3 1-3 0-8 0-8 6-2 12-7 15-18-11 3-18 12-29 17l-1-9-5 7Z"/></svg>
+      <svg class="bat bat-two" viewBox="0 0 72 36" fill="currentColor"><path d="M36 16 31 9l-1 9C19 13 12 4 1 1c3 11 9 16 15 18 0 0-1 5 0 8 5-3 11-2 15 3l5 5 5-5c4-5 10-6 15-3 1-3 0-8 0-8 6-2 12-7 15-18-11 3-18 12-29 17l-1-9-5 7Z"/></svg>
+      <span class="sky-star sky-star-one">✧</span>
+      <span class="sky-star sky-star-two">✦</span>
+    </div>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Inicio de Halloween">
+        <svg width="27" height="27" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M17 9c-1-5 2-6 5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M16 9C7 4 2 11 3 19c1 7 7 11 13 8 6 3 12-1 13-8 1-8-4-15-13-10Z" fill="currentColor"/><path d="m10 14 3 4H8l2-4Zm12 0 2 4h-5l3-4ZM9 21h14l-3 3h-8l-3-3Z" fill="#20172c"/></svg>
+        <span>Halloween</span>
+      </a>
+      <span class="header-note">Presentación de personajes</span>
+    </header>
+
+    <main class="page-layout">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span class="tiny-star" aria-hidden="true">✦</span> Es hora de entrar en personaje</div>
+        <h1 id="page-title">Tu personaje.<br />Tu <em>momento.</em></h1>
+        <p class="intro-copy">Cuéntanos cómo será tu presentación de Halloween y qué música necesitas para hacer tu gran entrada.</p>
+        <div class="illustration" aria-hidden="true">
+          <svg viewBox="0 0 420 270" role="img">
+            <defs>
+              <linearGradient id="ghost-fill" x1="180" y1="33" x2="245" y2="216" gradientUnits="userSpaceOnUse"><stop stop-color="#faf3ff"/><stop offset="1" stop-color="#bfa8e8"/></linearGradient>
+              <linearGradient id="pumpkin-fill" x1="252" y1="148" x2="307" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#ffb876"/><stop offset="1" stop-color="#e77743"/></linearGradient>
+            </defs>
+            <ellipse cx="218" cy="245" rx="129" ry="13" fill="#120d1c" opacity=".28"/>
+            <path class="illustration-star star-one" d="m75 86 4-13 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z" fill="#d6b8f5"/>
+            <path class="illustration-star star-two" d="m326 69 3-9 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#f6b383"/>
+            <circle cx="110" cy="165" r="3" fill="#f6b383"/><circle cx="315" cy="116" r="2.5" fill="#d6b8f5"/>
+            <g class="floating-ghost">
+            <path d="M136 211c2-27 5-57 6-84 2-51 31-79 71-79 41 0 69 27 70 71l3 65c1 12-4 18-11 18-8 0-10-11-18-11-10 0-12 22-23 23-11 1-13-20-23-20-11 0-12 20-24 20-10 0-13-17-22-17-9 0-16 26-23 25-5-1-7-5-6-11Z" fill="url(#ghost-fill)"/>
+            <path d="M141 135c-18 7-28 23-34 39" stroke="#d0bceb" stroke-width="13" stroke-linecap="round"/>
+            <path d="M276 130c15-8 25-19 31-34" stroke="#dfcdee" stroke-width="13" stroke-linecap="round"/>
+            <ellipse cx="193" cy="117" rx="7" ry="10" fill="#382748"/><ellipse cx="229" cy="117" rx="7" ry="10" fill="#382748"/>
+            <path d="M207 139c2 5 8 5 10 0" stroke="#382748" stroke-width="4" stroke-linecap="round"/>
+            <ellipse cx="178" cy="134" rx="10" ry="5" fill="#e6b5c8" opacity=".65"/><ellipse cx="244" cy="134" rx="10" ry="5" fill="#e6b5c8" opacity=".65"/>
+            </g>
+            <g class="glowing-pumpkin">
+            <path d="M291 165c-2-13 3-18 13-19" stroke="#88835e" stroke-width="7" stroke-linecap="round"/>
+            <path d="M289 165c-16-9-40 1-39 31 0 28 22 46 41 40 20 7 41-13 42-38 2-27-22-45-44-33Z" fill="url(#pumpkin-fill)"/>
+            <path d="M289 168c-11 21-10 51 2 66M302 170c11 19 12 40 2 60M273 170c-12 19-15 39-5 55" stroke="#c96838" stroke-width="2" opacity=".45"/>
+            <path d="m275 187 6 11h-13l7-11Zm33 0 7 11h-13l6-11ZM267 208l12 5 6-5 6 5 6-5 12 3-8 10h-26l-8-13Z" fill="#503234"/>
+            </g>
+            <path class="illustration-star star-three" d="m124 54 3-9 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#f6b383" opacity=".75"/>
+          </svg>
+        </div>
+        <p class="intro-footnote"><span aria-hidden="true">♫</span> Una canción, un personaje y una gran presentación</p>
+      </section>
+
+      <section class="form-card" aria-labelledby="form-title">
+        <div id="form-content">
+          <div class="card-heading">
+            <span class="card-kicker">Tu presentación</span>
+            <h2 id="form-title">Prepara tu entrada</h2>
+            <p>Completa tus datos y comparte los detalles de tu presentación.</p>
+          </div>
+
+          <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+          <form id="halloween-form" novalidate>
+            <div class="form-field">
+              <label for="name">Nombre completo <span class="required" aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="¿Cómo te llamas?" maxlength="100" required aria-describedby="name-error" />
+              <p id="name-error" class="field-error" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="character">Personaje o disfraz <span class="required" aria-hidden="true">*</span></label>
+              <input id="character" name="character" type="text" placeholder="Por ejemplo: bruja, vampiro, Wednesday…" maxlength="120" required aria-describedby="character-error" />
+              <p id="character-error" class="field-error" hidden></p>
+            </div>
+
+            <div class="form-field">
+              <label for="music-needed">¿Necesitas música? <span class="required" aria-hidden="true">*</span></label>
+              <div class="select-wrap">
+                <select id="music-needed" name="musicNeeded" required aria-describedby="music-needed-error">
+                  <option value="">Selecciona una opción</option>
+                  <option value="yes">Sí, necesito música</option>
+                  <option value="no">No necesito música</option>
+                </select>
+                <svg class="select-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <p id="music-needed-error" class="field-error" hidden></p>
+            </div>
+
+            <fieldset id="music-fields" class="music-fields" hidden disabled>
+              <legend><span aria-hidden="true">♫</span> La banda sonora de tu personaje</legend>
+              <div class="form-field">
+                <label for="song-title">Canción y artista <span class="required" aria-hidden="true">*</span></label>
+                <input id="song-title" name="songTitle" type="text" placeholder="Por ejemplo: Thriller — Michael Jackson" maxlength="200" aria-describedby="song-title-error" />
+                <p id="song-title-error" class="field-error" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="music-url">Enlace de la música <span class="optional">Opcional</span></label>
+                <input id="music-url" name="musicUrl" type="url" inputmode="url" placeholder="https://…" maxlength="1000" aria-describedby="music-url-hint music-url-error" />
+                <p id="music-url-hint" class="field-hint">Puedes compartir un enlace de YouTube, Spotify u otra plataforma.</p>
+                <p id="music-url-error" class="field-error" hidden></p>
+              </div>
+              <div class="form-field">
+                <label for="music-timing">Indicaciones para la música <span class="optional">Opcional</span></label>
+                <textarea id="music-timing" name="musicTiming" rows="2" placeholder="Por ejemplo: comenzar en 0:30 y detener después de un minuto" maxlength="600" aria-describedby="music-timing-error"></textarea>
+                <p id="music-timing-error" class="field-error" hidden></p>
+              </div>
+            </fieldset>
+
+            <div class="form-field notes-field">
+              <label for="notes">¿Algo más que debamos saber? <span class="optional">Opcional</span></label>
+              <textarea id="notes" name="notes" rows="2" placeholder="Comparte cualquier detalle de tu presentación" maxlength="800" aria-describedby="notes-error"></textarea>
+              <p id="notes-error" class="field-error" hidden></p>
+            </div>
+
+            <div class="honeypot" aria-hidden="true"><label for="website">Deja este campo vacío</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off" /></div>
+            <button class="submit-button" id="submit-button" type="submit">
+              <span id="submit-label">Enviar mi presentación</span>
+              <svg id="submit-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span class="spinner" id="submit-spinner" hidden aria-hidden="true"></span>
+            </button>
+            <p class="form-footnote">Los campos con <span aria-hidden="true">*</span> son obligatorios. Tus datos serán usados para organizar la presentación.</p>
+          </form>
+        </div>
+
+        <div id="success-panel" class="success-panel" hidden tabindex="-1">
+          <div class="success-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="card-kicker">¡Todo listo!</span>
+          <h2>Nos vemos<br />en Halloween</h2>
+          <p id="success-message">Tu presentación quedó registrada.</p>
+          <div class="success-summary" id="success-summary"></div>
+          <p class="success-hint">Ya tenemos lo necesario para preparar tu entrada.</p>
+          <button id="another-entry" class="secondary-button" type="button">Inscribir otra presentación</button>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">Que comience la magia <span aria-hidden="true">✦</span></footer>
+  </body>
+</html>

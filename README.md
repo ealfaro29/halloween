@@ -6,6 +6,8 @@ Sitio: https://ealfaro29.github.io/halloween/
 
 Pide nombre, personaje o disfraz, si necesita música, canción y artista, enlace e indicaciones opcionales, y notas. La página funciona en móvil y respeta la preferencia de reducir animaciones.
 
+La vista previa del enlace usa metadatos Open Graph y la imagen `assets/halloween-share-v1.png` (1200 × 630). El original editable es `assets/halloween-share.svg`.
+
 ## Respuestas
 
 Las respuestas se guardan en una hoja privada de Google Sheets a través de una aplicación de Google Apps Script. El sitio público no permite leer inscripciones.

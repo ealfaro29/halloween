@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse"><stop stop-color="#20172c"/><stop offset="1" stop-color="#2b1b35"/></linearGradient>
+    <radialGradient id="lilac-haze"><stop stop-color="#b57fc9" stop-opacity=".18"/><stop offset="1" stop-color="#b57fc9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orange-haze"><stop stop-color="#f7ac75" stop-opacity=".12"/><stop offset="1" stop-color="#f7ac75" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#backdrop)"/>
+  <ellipse cx="1035" cy="285" rx="400" ry="360" fill="url(#lilac-haze)"/>
+  <ellipse cx="945" cy="500" rx="290" ry="180" fill="url(#orange-haze)"/>
+  <g transform="translate(67 54) scale(1.1)" fill="#f7ac75">
+    <path d="M17 9c-1-5 2-6 5-5" fill="none" stroke="#f7ac75" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M16 9C7 4 2 11 3 19c1 7 7 11 13 8 6 3 12-1 13-8 1-8-4-15-13-10Z"/>
+    <path d="m10 14 3 4H8l2-4Zm12 0 2 4h-5l3-4ZM9 21h14l-3 3h-8l-3-3Z" fill="#20172c"/>
+  </g>
+  <text x="114" y="84" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-.6" fill="#f7ac75">Halloween</text>
+  <path d="M975 76 970 69l-1 9c-12-6-21-14-32-17 3 11 9 17 16 20-1 3-1 6 0 9 6-3 12-1 17 4l5 6 5-6c5-5 11-7 17-4 1-3 1-6 0-9 7-3 13-9 16-20-11 3-20 11-32 17l-1-9-5 7Z" fill="#b38cc9" opacity=".19"/>
+  <path d="m1093 110 3-8 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" fill="#d6b8f5" opacity=".6"/>
+  <text x="68" y="234" font-family="Georgia, serif" font-size="80" font-weight="400" letter-spacing="-2.8" fill="#faf3ff">Tu personaje</text>
+  <text x="68" y="329" font-family="Georgia, serif" font-size="84" font-style="italic" letter-spacing="-3" fill="#f7ac75">Tu momento</text>
+  <text x="72" y="405" font-family="Arial, sans-serif" font-size="27" fill="#d1c2df">Nombre, personaje y música</text>
+  <rect x="69" y="458" width="291" height="59" rx="14" fill="#f7ac75"/>
+  <text x="95" y="496" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#32213c">Inscríbete aquí</text>
+  <path d="M315 488h19m-7-7 7 7-7 7" fill="none" stroke="#32213c" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <svg x="635" y="139" width="540" height="360" viewBox="0 0 420 270">
+            <defs>
+              <linearGradient id="ghost-fill" x1="180" y1="33" x2="245" y2="216" gradientUnits="userSpaceOnUse"><stop stop-color="#faf3ff"/><stop offset="1" stop-color="#bfa8e8"/></linearGradient>
+              <linearGradient id="pumpkin-fill" x1="252" y1="148" x2="307" y2="246" gradientUnits="userSpaceOnUse"><stop stop-color="#ffb876"/><stop offset="1" stop-color="#e77743"/></linearGradient>
+            </defs>
+            <ellipse cx="218" cy="245" rx="129" ry="13" fill="#120d1c" opacity=".28"/>
+            <path class="illustration-star star-one" d="m75 86 4-13 4 13 13 4-13 4-4 13-4-13-13-4 13-4Z" fill="#d6b8f5"/>
+            <path class="illustration-star star-two" d="m326 69 3-9 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#f6b383"/>
+            <circle cx="110" cy="165" r="3" fill="#f6b383"/><circle cx="315" cy="116" r="2.5" fill="#d6b8f5"/>
+            <g class="floating-ghost">
+            <path d="M136 211c2-27 5-57 6-84 2-51 31-79 71-79 41 0 69 27 70 71l3 65c1 12-4 18-11 18-8 0-10-11-18-11-10 0-12 22-23 23-11 1-13-20-23-20-11 0-12 20-24 20-10 0-13-17-22-17-9 0-16 26-23 25-5-1-7-5-6-11Z" fill="url(#ghost-fill)"/>
+            <path d="M141 135c-18 7-28 23-34 39" stroke="#d0bceb" stroke-width="13" stroke-linecap="round"/>
+            <path d="M276 130c15-8 25-19 31-34" stroke="#dfcdee" stroke-width="13" stroke-linecap="round"/>
+            <ellipse cx="193" cy="117" rx="7" ry="10" fill="#382748"/><ellipse cx="229" cy="117" rx="7" ry="10" fill="#382748"/>
+            <path d="M207 139c2 5 8 5 10 0" stroke="#382748" stroke-width="4" stroke-linecap="round"/>
+            <ellipse cx="178" cy="134" rx="10" ry="5" fill="#e6b5c8" opacity=".65"/><ellipse cx="244" cy="134" rx="10" ry="5" fill="#e6b5c8" opacity=".65"/>
+            </g>
+            <g class="glowing-pumpkin">
+            <path d="M291 165c-2-13 3-18 13-19" stroke="#88835e" stroke-width="7" stroke-linecap="round"/>
+            <path d="M289 165c-16-9-40 1-39 31 0 28 22 46 41 40 20 7 41-13 42-38 2-27-22-45-44-33Z" fill="url(#pumpkin-fill)"/>
+            <path d="M289 168c-11 21-10 51 2 66M302 170c11 19 12 40 2 60M273 170c-12 19-15 39-5 55" stroke="#c96838" stroke-width="2" opacity=".45"/>
+            <path d="m275 187 6 11h-13l7-11Zm33 0 7 11h-13l6-11ZM267 208l12 5 6-5 6 5 6-5 12 3-8 10h-26l-8-13Z" fill="#503234"/>
+            </g>
+            <path class="illustration-star star-three" d="m124 54 3-9 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#f6b383" opacity=".75"/>
+          </svg>
+  <text x="72" y="582" font-family="Arial, sans-serif" font-size="19" fill="#a995ba">Presentación de personajes</text>
+</svg>
